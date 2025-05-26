@@ -14,7 +14,7 @@ from discord import app_commands
 import requests
 
 # Set Your Bot Token gay
-TOKEN = ''
+TOKEN = 'aaac37eb7ebecbc07d90d65acb7cc2a662e6542386d9e826626e71680b7e59b5'
 RAM_LIMIT = '2g' #Set Your Own Ram How Much You Want To Give Your Users
 SERVER_LIMIT = 2 #you can change it!
 database_file = 'database.txt'
@@ -26,7 +26,7 @@ intents.message_content = False
 bot = commands.Bot(command_prefix='/', intents=intents)
 client = docker.from_env()
 
-whitelist_ids = {"1128161197766746213"}  # Replace with actual user IDs
+whitelist_ids = {"1376463760461533276"}  # Replace with actual user IDs
 
 # Utility Functions
 def add_to_database(userid, container_name, ssh_command):
